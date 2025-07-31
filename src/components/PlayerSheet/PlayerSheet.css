@@ -1,0 +1,78 @@
+.player-sheet-container {
+    flex-grow: 1;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .player-sheet-container.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #888;
+  }
+  
+  .player-name {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    color: #333;
+  }
+  
+  .points-summary {
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .points-summary p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .points-total, .points-remaining {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #007bff;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .action-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1.5rem;
+  }
+  
+  .action-buttons button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      transition: transform 0.2s;
+  }
+  
+  .action-buttons button:first-child {
+      background-color: #28a745; /* Green */
+  }
+  
+  .action-buttons button:last-child {
+      background-color: #dc3545; /* Red */
+  }
+  
+  .action-buttons button:hover {
+      transform: scale(1.05);
+  }

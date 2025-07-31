@@ -1,0 +1,59 @@
+.skill-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .skill-label {
+    font-size: 1.1rem;
+    font-weight: 500;
+    flex-basis: 30%;
+  }
+  
+  .skill-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .control-button {
+    width: 35px;
+    height: 35px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  .control-button:hover:not(:disabled) {
+    background-color: #e0e0e0;
+  }
+  
+  .control-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .skill-value-input {
+    width: 60px;
+    height: 35px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -moz-appearance: textfield; /* Firefox */
+  }
+  
+  /* Hide arrows for number input in Chrome, Safari, Edge, Opera */
+  .skill-value-input::-webkit-outer-spin-button,
+  .skill-value-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }

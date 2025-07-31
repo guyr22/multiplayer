@@ -1,0 +1,40 @@
+.player-list-container {
+    width: 250px;
+    min-width: 200px;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-right: 1px solid #dee2e6;
+    height: 100vh;
+  }
+  
+  .player-list-container h3 {
+    margin-top: 0;
+    color: #343a40;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+  }
+  
+  .player-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .player-item {
+    padding: 0.8rem 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .player-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  .player-item.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
